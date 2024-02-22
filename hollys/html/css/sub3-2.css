@@ -1,0 +1,132 @@
+@charset "UTF-8";
+
+.inner {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  padding: 80px 0 0 0;
+}
+.sub1-list {}
+.sub1-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border-right: 1px solid #333;
+  font: 500 15px/1.5 'Noto Sans KR', sans-serif;
+}
+.sub1-list ul li a {
+  display: block;
+  width: 190px;
+}
+.sub1-list ul li:nth-child(2) a {
+  color: #111;
+}
+.sub1-list ul li a:hover {
+  color: #111;
+}
+.content {
+  width: 700px;
+}
+.location {
+  padding: 0 0 30px 0;
+}
+section {
+  width: 100%;
+}
+section h2 {
+  padding: 30px 0 50px 0;
+  font: 700 40px/1.2 'Noto Sans KR', sans-serif;
+  color: #333;
+}
+section > ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  font: 400 12px/1.2 'Noto Sans KR', sans-serif;
+  color: #303030;
+}
+section > ul > li {
+  width: 140px;
+  padding: 160px 0 0 0;
+  text-align: center;
+}
+section > ul > li:nth-child(1) {
+  background: url(/practice/hollys/html/img/sub3/sub3-2/img_membership_silver1.png) no-repeat;
+}
+section > ul > li:nth-child(2) {
+  background: url(/practice/hollys/html/img/sub3/sub3-2/img_membership_gold1.png) no-repeat;
+}
+section > ul > li:nth-child(3) {
+  background: url(/practice/hollys/html/img/sub3/sub3-2/img_membership_red1.png) no-repeat;
+}
+section > ul > li:nth-child(4) {
+  width: 180px;
+  background: url(/practice/hollys/html/img/sub3/sub3-2/img_membership_dia1.png) no-repeat;
+}
+section > ul > li p {
+  font: 700 16px / 1.2 'Noto Sans KR', sans-serif;
+}
+section > ul > li:nth-child(1) p {
+  color: #c1c1c1;
+}
+section > ul > li:nth-child(2) p {
+  color: #d5ad5e;
+}
+section > ul > li:nth-child(3) p {
+  color: #ba000c;
+}
+section > ul > li:nth-child(4) p {
+  color: #1e0c12;
+}
+
+.silver {
+  padding: 10px 0;
+  text-align: left;
+}
+.silver li {
+  padding: 20px 0 0 0;
+}
+.gold {
+  padding: 10px 0;
+  text-align: left;
+}
+.gold li {
+  padding: 20px 0 0 0;
+}
+.sTog {
+  height: 45px;
+  margin: 30px 0 0 0;
+  line-height: 45px;
+  color: #fff;
+  background-color: #a9a9a9;
+}
+.red {
+  padding: 10px 0;
+  text-align: left;
+}
+.red li {
+  padding: 20px 0 0 0;
+}
+.gTor {
+  height: 45px;
+  margin: 30px 0 0 0;
+  line-height: 45px;
+  color: #fff;
+  background-color: #c5a56c;
+}
+.diamond {
+  padding: 10px 0;
+}
+.diamond li {
+  padding: 20px 0 0 0;
+}
+.rTod {
+  height: 45px;
+  margin: 30px 0 0 0;
+  border-top: 1px solid #c5a56c;
+  border-bottom: 1px solid #c5a56c;
+  line-height: 45px;
+}
+.color-red {
+  color: #ba000c;
+}

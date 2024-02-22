@@ -1,0 +1,160 @@
+/* MAIN - S */
+/* swiper - S */
+.visual {}
+.swiper {
+  width: 100%;
+  height: 480px;
+}
+.slide1 {
+  background: url(/practice/hollys/html/img/mainVisual1.jpg) center center no-repeat;
+}
+.slide2 {
+  background: url(/practice/hollys/html/img/mainVisual2.jpg) center center no-repeat;
+}
+.slide3 {
+  background: url(/practice/hollys/html/img/mainVisual3.jpg) center center no-repeat;
+}
+/* swiper - E */
+/* section1 - S */
+.sec1 {}
+.tit {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  padding: 150px 0;
+  text-align: center;
+}
+.tit h3 {
+  font: 600 40px/1.4 'Noto Sans KR', sans-serif;
+  color: #222;
+}
+.tit span {
+  font: 400 18px/1.2 'Noto Sans KR', sans-serif;
+  color: #222;
+}
+/* article - S */
+
+.sli article a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 360px 0 0 0;
+}
+.sli1 > article > a {
+  background: url(/practice/hollys/html/img/sec1-1.png) center top no-repeat;
+}
+.sli2 > article > a {
+  background: url(/practice/hollys/html/img/sec1-2.png) center top no-repeat;
+}
+.sli3 > article > a {
+  background: url(/practice/hollys/html/img/sec1-3.png) center top no-repeat;
+}
+.sli4 > article > a {
+  background: url(/practice/hollys/html/img/sec1-4.png) center top no-repeat;
+}
+.sli5 > article > a {
+  background: url(/practice/hollys/html/img/sec1-5.png) center top no-repeat;
+}
+.sli6 > article > a {
+  background: url(/practice/hollys/html/img/sec1-6.png) center top no-repeat;
+}
+.sli7 > article > a {
+  background: url(/practice/hollys/html/img/sec1-7.png) center top no-repeat;
+}
+.sli8 > article > a {
+  background: url(/practice/hollys/html/img/sec1-8.png) center top no-repeat;
+}
+.sli9 > article > a {
+  background: url(/practice/hollys/html/img/sec1-9.png) center top no-repeat;
+}
+/* article - E */
+
+/* section1 - E */
+/* section2 - S */
+.sec2 {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 80px 0;
+}
+/* article - S */
+.sec2-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+.sec2-wrapper > article {}
+.sec2-wrapper > article a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 428px;
+  padding: 360px 0 0 0;
+  border: 1px solid #222;
+}
+.sec2-wrapper > article:nth-child(1) > a {
+  background: url(/practice/hollys/html/img/event1.jpg) no-repeat;
+}
+.sec2-wrapper > article:nth-child(2) > a {
+  background: url(/practice/hollys/html/img/event2.jpg) no-repeat;
+}
+.sec2-wrapper > article:nth-child(3) > a {
+  background: url(/practice/hollys/html/img/event3.jpg) no-repeat;
+}
+
+.sec2-wrapper > article > a > h4 {
+  padding: 20px 0;
+}
+.sec2-wrapper > article > a > span {
+  padding-bottom: 20px;
+}
+/* article - E */
+.more {
+  width: 100%;
+  text-align: center;
+}
+.more > a {
+  display: inline-block;
+  height: 60px;
+  padding: 0 48px;
+  border: 2px solid #222;
+  border-radius: 30px;
+  font: 600 16px/56px 'Noto Sans KR', sans-serif;
+  color: #222;
+}
+
+.add-box {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+.membership {
+  width: 49%;
+}
+.membership > a {
+  display: flex;
+  justify-content: space-between;
+  height: 160px;
+  padding: 0 30px;
+  border-radius: 10px;
+  font: 600 30px/160px 'Noto Sans KR', sans-serif;
+  color: #333;
+  background-color: #efefef;
+}
+.card {
+  width: 49%;
+}
+.card > a {
+  display: flex;
+  justify-content: space-between;
+  height: 160px;
+  padding: 0 30px;
+  border-radius: 10px;
+  font: 600 30px/160px 'Noto Sans KR', sans-serif;
+  color: #333;
+  background-color: #efefef;
+}
+/* section2 - E */
+/* MAIN - E */

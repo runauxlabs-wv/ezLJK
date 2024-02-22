@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/******************** 
+max-width : 1280px
+********************/
+@media all and (max-width : 1280px) {
+  /* gnb - S */
+  .gnb {
+    display: none;
+  }
+  /* gnb - E */
+  /* ham - S */
+  .m-btn {
+    display: block;
+  }
+  .-active {
+    transform: translateX(0);
+  }
+  /* ham - E */
+  /* tnb - S */
+  .util {
+    display: none;
+  }
+  /* tnb - E */
+  /* main - S */
+  .more > a {
+    width: 768px
+  }
+  /* main - E */
+}
+
+/******************** 
+max-width : 1280px
+********************/
+@media all and (max-width : 1280px) {
+  /* main - S */
+  .sec2-wrapper {
+    flex-direction: column;
+  }
+  .sec2-wrapper > article {
+    margin: 0 auto;
+  }
+  .sec2-wrapper > article a {
+    width: 700px;
+    padding: 141px 0 0 0;
+  }
+  .sec2-wrapper > article:nth-child(1) > a {
+    background: url(/practice/hollys/html/img/event1-1.jpg) no-repeat;
+  }
+  .sec2-wrapper > article:nth-child(2) > a {
+    background: url(/practice/hollys/html/img/event2-1.jpg) no-repeat;
+  }
+  .sec2-wrapper > article:nth-child(3) > a {
+    background: url(/practice/hollys/html/img/event3-1.jpg) no-repeat;
+  }
+
+  .add-box {
+    flex-direction: column;
+    width: 480px;
+    margin: 30px auto 0;
+  }
+  .membership {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .more > a {
+    width: 100%
+  }
+  /* main - E */
+}
+/******************** 
+max-width : 720px
+********************/
+@media all and (max-width : 720px) {
+  .sec2 {
+    padding: 0;
+  }
+  .sec2-wrapper {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 100px;
+  }
+  .sec2-wrapper > article {
+    margin: 0 auto;
+  }
+  .sec2-wrapper > article a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 428px;
+    padding: 360px 0 0 0;
+    border: 1px solid #222;
+  }
+  .sec2-wrapper > article:nth-child(1) > a {
+    background: url(/practice/hollys/html/img/event1.jpg) no-repeat;
+  }
+  .sec2-wrapper > article:nth-child(2) > a {
+    background: url(/practice/hollys/html/img/event2.jpg) no-repeat;
+  }
+  .sec2-wrapper > article:nth-child(3) > a {
+    background: url(/practice/hollys/html/img/event3.jpg) no-repeat;
+  }
+  .more > a {
+    max-width: 768px;
+    min-width: 360px
+  }
+  .f-inner {
+    min-width: 607px;
+    padding: 50px 40px 80px;
+  }
+}

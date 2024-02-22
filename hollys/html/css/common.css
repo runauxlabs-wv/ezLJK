@@ -1,0 +1,254 @@
+@charset "UTF-8";
+/* COMMON - S */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+*::after, *::before {
+    display: none;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body {
+    font: 400 16px / 1.28 'Noto Sans KR', sans-serif;
+    color: #666
+}
+.hide {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    position: absolute;
+    left: -9999px;
+}
+input, textarea, select, button {
+    vertical-align: middle;
+    background: none;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+.skip-nav a {
+    width: 100%;
+    height: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: -100px;
+    z-index: 1000;
+}
+.skip-nav a:focus {
+    top: 0;
+}
+/* COMMON - E */
+/* HEADER - S */
+header {
+    height: 99px;
+    padding: 0 30px;
+    position: relative;
+    /* 포지션 기준잡아줌 */
+}
+/* logo - S */
+
+.hLogo {}
+.hLogo a {}
+.hLogo a img {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+}
+
+/* logo - E */
+/* gnb - S */
+
+.gnb {}
+.gnb > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99px;
+    /* align-items: center 먹이기위해 여기에 height 설정 */
+}
+.depth1 {
+    width: 135px;
+    height: 99px;
+    text-align: center;
+    /* flex 쓰지않고 text-align으로 중앙정렬 */
+}
+.depth1 > a {
+    display: block;
+    width: 135px;
+    height: 99px;
+    line-height: 99px;
+    /* height와 line-height를 맞춰서 중앙정렬 */
+}
+.depth2 {
+    display: none;
+    width: 100%;
+    height: 54px;
+    background-color: #4f4c4b;
+    position: absolute;
+    top: 99px;
+    left: 0;
+    z-index: 1000;
+}
+.-on {
+    display: flex;
+    justify-content: center;
+}
+.depth2 a {
+    display: block;
+    width: 160px;
+    height: 54px;
+    line-height: 54px;
+    color: #ccc;
+}
+/* gnb - E */
+/* ham - S */
+.m-btn {
+    display: none;
+    width: 24px;
+    height: 16px;
+    position: absolute;
+    right: 20px;
+    top: 40px;
+    z-index: 10000;
+}
+.m-btn > i {
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    font-size: 0;
+    color: transparent;
+    background: #222;
+    opacity: .8;
+}
+.m-btn > i::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    background: #222;
+    position: absolute;
+    left: 0;
+    top: 0px;
+}
+.m-btn > i::after {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    background: #222;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+}
+.ham {
+    width: 100%;
+    height: 100vh;
+    padding: 70px 20px 0;
+    font-weight: 500;
+    color: #333;
+    background: #fff;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: .4s;
+}
+.ham > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.h-depth2 {
+    display: none;
+}
+/* ham - E */
+/* tnb - S */
+
+.tnb {}
+.util {
+    width: 210px;
+    height: 50px;
+    font-weight: 600;
+    position: absolute;
+    top: 30px;
+    right: 50px;
+}
+.util a:nth-child(1) {
+    position: absolute;
+    top: 12px;
+    right: 140px;
+}
+.util a:nth-child(2) {
+    position: absolute;
+    top: 12px;
+    right: 70px;
+}
+.util a:nth-child(3) {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+.franchise {}
+.franchise a {}
+.franchise a img {
+    position: fixed;
+    top: 200px;
+    right: 0;
+    z-index: 10;
+}
+
+/* tnb - E */
+/* HEADER - E */
+/* FOOTER - S */
+.footer {
+    background-color: #f5f5f5;
+}
+.f-inner {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 50px 80px 80px;
+    font: 400 12px/1.6 'Noto Sans KR', sans-serif;
+}
+/* f-logo - S */
+.f-logo {
+    padding-bottom: 40px;
+}
+.f-logo a {}
+.f-logo a img {}
+/* f-logo - E */
+/* f-wrap - S */
+.f-wrap {
+    display: flex;
+    gap: 30px;
+}
+.addr {}
+.tel {}
+.privacy {
+    font-weight: 600;
+}
+.privacy a:last-child {
+    display: none;
+}
+/* f-wrap - E */
+.copyright {}
+
+/* FOOTER - E */
